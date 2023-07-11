@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* Set font and background colors */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    text-align: center;
+}
+
+.banner {
+    /* Backgroung banner GIF */
+    background-image: url(assets/img/walpaper/598673.jpg);
+    height: 20vw;
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+
+body section h2 {
+    font-size: 50px;
+}
+
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+nav {
+    padding: 19px;
+    display: flex;
+    background-color: #333;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    border-radius: 25%;
+    background-color: #ddd;
+    color: black;
+}
+
+p {
+    font-size: 25px;
+    
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    min-height: 100vh;
+    text-align: center;
+    height: 100%;
+    padding: 75px 0px;
+}
+
+section h2 span{
+    background-color: #9ed5ff;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+
+.about-content img {
+    width: 25%;
+    float: right;
+    border-radius: 10%;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Home section styles */
+#home .profile-content {
+    display: flex;
+    align-items: center;
+}
+
+#home .profile-img {
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+section #projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    counter-increment: carousel-cell;
+  }
+
+.carousel-cell img{
+    width: 50%;
+    min-height: 50vh;
+}
+
+.yt_handle {
+    color: #e62117;
+}
+
+.linkdn_handle {
+    color: #0e76a8;
+}
+
+.insta_handle {
+    color: #dd2a7b;
+}
+
+
+/* Contact section styles */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
