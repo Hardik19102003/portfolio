@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Linking Fontawesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous" />
+    <!-- Linking Flickity -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- External CSS file -->
+  </head>
+  <body>
+    <header>
+        <div class="banner"></div>
+        <h1><span>Welcome to my profile!</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="home">
+      
+      <div class="profile-content">
+        <img
+          src="assets/img/IMG20230121190914.jpg"
+          alt="Profile Picture"
+          class="profile-img" />
+        <p>
+          Hi there! I'm Hardik Patel, a passionate web developer with a focus on
+          front-end development. I love creating engaging and interactive
+          websites and exploring new technologies.
+        </p>
+      </div>
+    </div>
+
+    <section id="about">
+      <!-- Add information about yourself -->
+
+      <h2><span>About Me</span></h2>
+      <div class="about-content">
+        <img src="assets/img/IMG20230121190914.jpg" alt="Profile Picture" />
+        <p>
+          H, I'm Hardik Patel. I love creating interactive and user-friendly websites that deliver a great user experience. I'm a B.tech MnC Student at Dhirubhai Ambani Institute and
+          will graduate in 2025.
+        </p>
+        <p>
+          I have a strong foundation in responsive web design and enjoy staying
+          up to date with the latest web development trends and technologies.
+          I'm constantly learning and exploring new tools and frameworks to
+          enhance my skills and improve the quality of my work.
+        </p>
+        <p>
+          Besides coding, I have a interest in photography, videography, designing, traveling, designing, meditation, astrrology and lot more. In
+          my free time, you can often find me capturing moments with my camera
+          or planning my next adventure.
+        </p>
+        
+      </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2><span>Projects</span></h2>
+        <!-- Notes Carousel -->
+        <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+            <div class="carousel-cell">
+                <a target="_blank" href="#"><img
+                        class="img-responsive"
+                        src="assets/img/walpaper/1005830.jpg"></a>
+                        <h2>Amazone Clone</h2>
+            </div>
+            <div class="carousel-cell">
+                <a target="_blank"
+                    href="assets/courses/chemistry/notes/Solid State New Complete Chapter Notes.pdf"><img
+                        class="img-responsive"
+                        src="assets/img/walpaper/1141570.png" alt=""></a>
+                        <h2>Chess Game</h2>
+            </div>
+            <div class="carousel-cell">
+                <a target="_blank" href="assets/courses/chemistry/notes/Electrochemistry  Complete NCERT.pdf"><img
+                        class="img-responsive"
+                        src="assets/img/walpaper/1141137.jpg"></a>
+                        <h2>Apni Kaksha</h2>
+            </div>
+            <div class="carousel-cell">
+                <a target="_blank" href="assets/notes/Coordination Compound 3.pdf"><img class="img-responsive"
+                        src="assets/img/walpaper/1141601.jpg"></a>
+                        <h2>Piano</h2>
+            </div>
+            <div class="carousel-cell">
+                <a target="_blank" href="assets/notes/Coordination Compound 3.pdf"><img class="img-responsive"
+                        src="assets/img/walpaper/1207008.jpg"></a>
+                        <h2>Portfolio</h2>
+            </div>
+    </section>
+
+    <section id="contact">
+      <h2><span>Contact Me</span></h2>
+      <div class="contact-icons">
+        <a href="https://twitter.com/Hardik19102003" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/patelhardik____/"
+          target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/hardikpatel-19102003/"
+          target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          class="yt_handle"
+          href="https://youtube.com/@HardikPatel-zd3ul"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-youtube fa-lg"></i
+        ></a>
+        <a
+          class="github_handle"
+          href="https://github.com/Hardik19102003"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-github fa-lg"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+    <!-- Flickity JS files -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>
